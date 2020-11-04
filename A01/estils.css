@@ -1,0 +1,176 @@
+body {
+  background-color: skyblue;
+  margin: 0;
+  font-family: comic sans MS;
+}
+div{
+  background-color: red;
+  height: 50px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+li{
+  display:inline-block;
+  background-color: orange;
+  height: 30px;
+  margin: 0;
+  padding: 5px;
+  line-height: 30px;
+}
+
+li:hover{background-color: yellowgreen}
+}
+
+p{
+  width: 350px;
+  background-color: pink;
+  padding:0 25px;
+  margin: 0;
+}
+
+h1{
+  border:  2px yellow;
+  width: 350px;
+  background-color: cyan;
+  padding:0 25px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+#primera{
+  height: 200px;
+
+
+}
+#segona{
+  height: 550px;
+  background-image:url(img/img-hero-full-list.png);
+
+
+}
+#tercera{
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+
+}
+#quarta{
+  height: 500px;
+  background-image: url(img/curator-short.png);
+
+}
+#cinquena{
+  height: 550px;
+  background-image:url(img/mobile-home.png);
+}
+#sisena{
+  height: 550px;
+  background-image:url(img/anywhere.png);
+}
+#setena{
+  height: 643px;
+
+}
+#vuitena{
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+
+}
+#boto {
+  /*---*/
+  background-color: violet;
+  height: 70px;
+  width: 70px;
+/*----POSICIONAMENT----*/
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+/*----text----*/
+  border-radius: 35px;
+  box-shadow: 10px 10px 10px black;
+  text-align: center;
+  line-height: 65px;
+  font-size: 20px;
+  background-image: url(img/sources.png);background-position: -229px -17px;
+  opacity: 0.7;
+
+
+
+}
+.blanc{
+  background-color: #FFF;
+}
+.verda{
+  background-color: #6C3;
+}
+.fosca{
+  background-color: #333;
+}
+.clara{
+  background-color: #EEECCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------- APUNTS ----------
+
+
+
+
+padding:
+padding-top:
+padding-bottom:
+padding-left:
+padding-right:
+
+border:
+border-top: 5px
+border-right:7px
+border-bottom:9px
+border-left:3px
+
+border:5px 7px 9px 3px
+
+
+
+margin:
+margin-top:
+margin-bottom:
+margin-left:
+margin-right
+
+
+
+
+
+
+
+element
+
+width
+
+
+display:
+
+inline (en linea), tenen la mida que tenen, es coloquen un al costat de l'altre
+
+block (en bloc). Els hi podem canviar la mida, es coloquen un a sobre de l'altre
+
+POSICIONAMENT css
+position static
+position relative
+position fixed
