@@ -5,36 +5,37 @@ body {
 }
 div{
   background-color: red;
-  height: 50px;
+  height: 3.125rem;
   margin: 0px;
   background-repeat: no-repeat;
-  background-position: 400px;
+  background-position: 25rem;
 }
 
 li{
   display:inline-block;
   background-color: orange;
-  height: 30px;
+  height: 1,875rem;
   margin: 0;
-  padding: 5px;
-  line-height: 30px;
+  padding: 0.3125rem;
+  line-height: 1.875rem;
 }
 
 li:hover{background-color: yellowgreen}
 }
 
 p{
-  width: 350px;
+  width: 21.875rem;
   background-color: pink;
-  padding:0 25px;
+  padding:0 1.5625rem;
   margin: 0;
 }
 
 h1{
-  border:  2px yellow;
-  width: 350px;
+  border:  0.125rem yellow;
+  width: 21.875rem;
   background-color: cyan;
-  padding:0 25px;
+  padding:0 1.5625rem;
+  font-size: 2.5rem;
 }
 
 
@@ -43,59 +44,59 @@ a{
   color: white;
 }
 #primera{
-  height: 200px;
+  height: 12.5rem;
 
 
 }
 #segona{
-  height: 550px;
+  height: 34.375rem;
   background-image:url(img/img-hero-full-list.png);
 
 
 }
 #tercera{
-  height: 641px;
+  height: 40.0625rem;
   background-image: url(img/allinone.jpg);
 
 }
 #quarta{
-  height: 500px;
+  height: 31.25rem;
   background-image: url(img/curator-short.png);
 
 }
 #cinquena{
-  height: 550px;
+  height: 34.375rem;
   background-image:url(img/mobile-home.png);
 }
 #sisena{
-  height: 550px;
+  height: 34.375rem;
   background-image:url(img/anywhere.png);
 }
 #setena{
-  height: 643px;
+  height: 40.1875rem;
 
 }
 #vuitena{
-  height: 200px;
+  height: 12.5rem;
   text-align: center;
-  padding: 50px;
+  padding: 3.125rem;
 
 }
 #boto {
   /*---*/
   background-color: violet;
-  height: 70px;
-  width: 70px;
+  height: 4.375rem;
+  width: 4.375rem;
 /*----POSICIONAMENT----*/
   position: fixed;
-  bottom: 50px;
-  right: 100px;
+  bottom: 3.125rem;
+  right: 6.25rem;
 /*----text----*/
-  border-radius: 35px;
-  box-shadow: 10px 10px 10px black;
+  border-radius: 2.1875rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem black;
   text-align: center;
-  line-height: 65px;
-  font-size: 20px;
+  line-height: 4rem;
+  font-size: 1.25rem;
   background-image: url(img/sources.png);background-position: -229px -17px;
   opacity: 0.7;
 
@@ -115,8 +116,23 @@ a{
   background-color: #EEECCC;
 }
 
+@media screen and(max-width: 60rem) {
+  div{
+    background-image: url();
+  }
+  li{
+    display: block;
+    background-color: orange;
+    height: 1.875rem;
+    margin: 0 0 0 -2.5rem;
+    padding: 0.3125rem;
+    line-height: 1.875rem;
+  }
+  #primera{
+      height: 16.875rem;
+    }
 
-
+    font-size:
 
 
 
